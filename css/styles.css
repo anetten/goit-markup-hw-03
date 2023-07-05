@@ -47,8 +47,6 @@ body {
 }
 
 .header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -95,6 +93,7 @@ body {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .header-menu-item:hover,
@@ -156,7 +155,6 @@ button:focus {
 }
 
 .efective-sol-container {
-  padding: 188px 316px 292px 316px;
 }
 
 .efective-sol {
@@ -173,6 +171,8 @@ button:focus {
   text-align: center;
   color: #ffffff;
   margin-bottom: 48px;
+  display: block;
+  margin: 0 auto;
 }
 
 .button-order {
@@ -189,7 +189,6 @@ button:focus {
 }
 
 .advantages-list {
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
@@ -253,7 +252,6 @@ button:focus {
 }
 
 .wawd-container {
-  padding-bottom: 120px;
 }
 
 .our-team {
@@ -263,6 +261,7 @@ button:focus {
 
 .team {
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 74px) / 4);
 }
 
 .name {
@@ -275,14 +274,12 @@ button:focus {
 }
 
 .wawd-list {
-  padding-top: 72px;
   display: flex;
   gap: 24px;
 }
 
 .wawd {
   margin-bottom: 72px;
-  padding-top: 120px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -298,7 +295,6 @@ button:focus {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .paragraph-img {
@@ -370,8 +366,6 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  padding: 12px 24px;
 }
 
 .button-list:hover,

@@ -342,8 +342,6 @@ footer {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  padding: 12px 24px;
-  border: 1px solid transparent;
 }
 
 .portfolio-section {
@@ -366,6 +364,8 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
 }
 
 .button-list:hover,

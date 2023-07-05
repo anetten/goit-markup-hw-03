@@ -22,6 +22,10 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -45,6 +49,7 @@ body {
 .header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -66,6 +71,7 @@ body {
 .header-menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-container {
@@ -77,6 +83,7 @@ body {
 .header-navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .header-menu-item {
@@ -150,6 +157,10 @@ button:focus {
 }
 
 .advantages {
+  padding: 120px 0;
+}
+
+.advantages-title {
   letter-spacing: 0.02em;
 }
 
@@ -162,7 +173,7 @@ button:focus {
 }
 
 .efective-sol-title {
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -182,6 +193,7 @@ button:focus {
   letter-spacing: 0.04em;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 
 .button-order:hover,
@@ -190,10 +202,26 @@ button:focus {
 }
 
 .advantages-list {
-  padding-top: 120px;
   padding-bottom: 120px;
   display: flex;
   gap: 24px;
+}
+
+.adv-list {
+  width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-title {
@@ -229,6 +257,10 @@ button:focus {
   background-color: #f4f4fd;
 }
 
+.wawd-section {
+  padding-bottom: 120px;
+}
+
 .wawd-list {
   padding-top: 72px;
   display: flex;
@@ -236,8 +268,8 @@ button:focus {
 }
 
 .wawd {
+  margin-bottom: 72px;
   padding-top: 120px;
-  padding-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -245,6 +277,11 @@ button:focus {
   text-align: center;
   color: #2e2f42;
 }
+
+.wawd-list-img {
+  width: calc((100% - 48px) / 3);
+}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -272,12 +309,11 @@ button:focus {
 }
 
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 footer {
   background-color: var(--primary-color);
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -288,6 +324,8 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color-logo);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -295,7 +333,6 @@ footer {
 }
 
 .footer-paragraph {
-  padding-top: 16px;
   width: 264px;
   color: #f4f4fd;
   font-weight: 400;
@@ -310,7 +347,4 @@ footer {
   padding-top: 96px;
   padding-bottom: 72px;
   gap: 24px;
-}
-
-.img-list {
 }

@@ -371,6 +371,12 @@ footer {
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
+  padding: 12px 24px;
+}
+
+.button-list:hover,
+.button-list:focus {
+  border: 1px solid transparent;
 }
 
 .button-order:hover,
@@ -387,6 +393,7 @@ footer {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 .title-img {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;

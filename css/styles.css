@@ -71,7 +71,6 @@ body {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-container {
@@ -95,6 +94,7 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-menu-item:hover,
@@ -170,6 +170,7 @@ button:focus {
 
 .efective-sol {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .efective-sol-title {

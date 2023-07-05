@@ -344,8 +344,10 @@ footer {
 .buttons-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 72px;
   gap: 24px;
+  margin-bottom: 72px;
+  padding: 12px 24px;
+  border: 1px solid transparent;
 }
 
 .portfolio-section {
@@ -369,8 +371,6 @@ footer {
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
-  margin-bottom: 72px;
-  border: 1px solid transparent;
 }
 
 .button-order:hover,

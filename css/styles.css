@@ -368,14 +368,14 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
-  padding: 12px 24px;
   border: 1px solid #e7e9fc;
+  margin-bottom: 72px;
+  border: 1px solid transparent;
 }
 
 .button-order:hover,
 .button-order:focus {
   background-color: #404bbf;
-  border: 1px solid transparent;
 }
 
 .img-list-item {

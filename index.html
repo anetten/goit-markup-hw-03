@@ -9,137 +9,156 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
 
   <body>
     <header class="header">
-      <nav class="header-menu">
-        <a href="./index.html" class="header-logo link">
-          Web<span class="header-logo-accent">Studio</span>
-        </a>
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="header-menu-item link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="header-menu-item link"
-              >Portfolio</a
-            >
-          </li>
-          <li><a href="" class="header-menu-item link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="address-menu list">
-          <li class="address-menu-item">
-            <a href="mailto:info@devstudio.com" class="address-menu-link link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="address-menu-item">
-            <a href="tel:+110001111111" class="address-menu-link link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link">
+            Web<span class="header-logo-accent">Studio</span>
+          </a>
+          <ul class="header-menu list">
+            <li>
+              <a href="./index.html" class="header-menu-item link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="header-menu-item link"
+                >Portfolio</a
+              >
+            </li>
+            <li><a href="" class="header-menu-item link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-menu list">
+            <li class="address-menu-item">
+              <a href="mailto:info@devstudio.com" class="address-menu-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-menu-item">
+              <a href="tel:+110001111111" class="address-menu-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <section class="efective-sol">
-        <h1 class="efective-sol-title">
-          Effective Solutions for Your Business
-        </h1>
-        <button type="button" class="button-order">Order Service</button>
+        <div class="container efective-sol-container">
+          <h1 class="efective-sol-title">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="button-order">Order Service</button>
+        </div>
       </section>
 
       <section>
-        <h2 hidden class="advantages">Advantages</h2>
-        <ul class="list">
-          <li>
-            <h3 class="section-title">Strategy</h3>
-            <p class="section-paragraph">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="section-title">Punctuality</h3>
-            <p class="section-paragraph">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="section-title">Diligence</h3>
-            <p class="section-paragraph">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="section-title">Technologies</h3>
-            <p class="section-paragraph">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden class="advantages">Advantages</h2>
+          <ul class="advantages-list list">
+            <li>
+              <h3 class="section-title">Strategy</h3>
+              <p class="section-paragraph">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="section-title">Punctuality</h3>
+              <p class="section-paragraph">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="section-title">Diligence</h3>
+              <p class="section-paragraph">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="section-title">Technologies</h3>
+              <p class="section-paragraph">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section>
-        <h2 class="wawd">What are we doing</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/computer.jpg" alt="computer" width="360" />
-          </li>
-          <li><img src="./images/phone.jpg" alt="phone" width="360" /></li>
-          <li>
-            <img
-              src="./images/phone-in-the-hand.jpg"
-              alt="phone in the hand"
-              width="360"
-            />
-          </li>
-        </ul>
+        <div class="wawd-container container">
+          <h2 class="wawd">What are we doing</h2>
+          <ul class="wawd-list list">
+            <li>
+              <img src="./images/computer.jpg" alt="computer" width="360" />
+            </li>
+            <li><img src="./images/phone.jpg" alt="phone" width="360" /></li>
+            <li>
+              <img
+                src="./images/phone-in-the-hand.jpg"
+                alt="phone in the hand"
+                width="360"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="our-team">
-        <h2 class="wawd">Our Team</h2>
-        <ul class="list">
-          <li class="team">
-            <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
-            <h3 class="section-title">Mark Guerrero</h3>
-            <p class="section-paragraph">Product Designer</p>
-          </li>
-          <li class="team">
-            <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
-            <h3 class="section-title">Tom Ford</h3>
-            <p class="section-paragraph">Frontend Developer</p>
-          </li>
-          <li class="team">
-            <img src="./images/camila.jpg" alt="Camila Garcia" width="264" />
-            <h3 class="section-title">Camila Garcia</h3>
-            <p class="section-paragraph">Marketing</p>
-          </li>
-          <li class="team">
-            <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" />
-            <h3 class="section-title">Daniel Wilson</h3>
-            <p class="section-paragraph">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="wawd">Our Team</h2>
+          <ul class="team-list list">
+            <li class="team">
+              <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
+              <h3 class="section-title people">Mark Guerrero</h3>
+              <p class="section-paragraph people">Product Designer</p>
+            </li>
+            <li class="team">
+              <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
+              <h3 class="section-title people">Tom Ford</h3>
+              <p class="section-paragraph people">Frontend Developer</p>
+            </li>
+            <li class="team">
+              <img src="./images/camila.jpg" alt="Camila Garcia" width="264" />
+              <h3 class="section-title people">Camila Garcia</h3>
+              <p class="section-paragraph people">Marketing</p>
+            </li>
+            <li class="team">
+              <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" />
+              <h3 class="section-title people">Daniel Wilson</h3>
+              <p class="section-paragraph people">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="footer-logo link"
-        >Web<span class="footer-logo-accent">Studio</span></a
-      >
-      <p class="footer-paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="footer-container container">
+        <a href="./index.html" class="footer-logo link"
+          >Web<span class="footer-logo-accent">Studio</span></a
+        >
+        <p class="footer-paragraph">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
